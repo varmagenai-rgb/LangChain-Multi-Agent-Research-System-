@@ -6,8 +6,8 @@ import os
 
 # Option 2: Hardcoded (quick test only, not for production)
 client = OpenAI(
-    api_key="",
-    base_url="https://openrouter.ai/api/v1",
+    #api_key="",
+    #base_url="https://openrouter.ai/api/v1",
 )
 
 try:
@@ -16,7 +16,7 @@ try:
         messages=[{"role": "user", "content": "Say 'Hello, API is working!'"}],
         max_tokens=20
     )
-    print("✅ API Key is working!")
+    print("✅is working!")
     print("Response:", response.choices[0].message.content)
     print("Model used:", response.model)
 
