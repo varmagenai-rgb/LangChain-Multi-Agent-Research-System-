@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls \"/c/Users/Chaitanya Varma/.conda/envs/langagent/Lib/site-packages/agent_framework/azure/\")",
+      "Read(//c/Users/Chaitanya Varma/.conda/envs/langagent/Lib/site-packages/agent_framework/azure//**)",
+      "Bash(ls \"/c/Users/Chaitanya Varma/.conda/envs/langagent/Lib/site-packages/\" | grep -i agent_framework)",
+      "Read(//c/Users/Chaitanya Varma/.conda/envs/langagent/Lib/site-packages//**)"
+    ]
+  }
+}
