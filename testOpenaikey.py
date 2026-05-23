@@ -6,7 +6,7 @@ import os
 
 # Option 2: Hardcoded (quick test only, not for production)
 client = OpenAI(
-    api_key="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",
+    api_key="",
     base_url="https://openrouter.ai/api/v1",
 )
 
